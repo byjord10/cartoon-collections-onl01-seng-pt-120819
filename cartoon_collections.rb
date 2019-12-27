@@ -1,9 +1,15 @@
-def roll_call_dwarves# code an argument here
-  # Your code here
+require 'pry'
+
+def roll_call_dwarves(dwarves)# code an argument here
+  dwarves.each_with_index do |dwarf, i|
+    puts "#{i + 1}. #{dwarf}"
+  end
+     # Your code here
 end
 
-def summon_captain_planet# code an argument here
-  # Your code here
+def summon_captain_planet?()# code an argument here
+  veggies.map {|veggie| puts veggies + "!"}# Your code here
+
 end
 
 def long_planeteer_calls# code an argument here
