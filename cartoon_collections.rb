@@ -10,6 +10,7 @@ end
 def summon_captain_planet?(veggies)# code an argument here
   veggies.collect do |veggie|
     "#{veggies.capitalize} << !"# Your code here
+  end 
 
 end
 
