@@ -7,12 +7,8 @@ def roll_call_dwarves(dwarves)# code an argument here
      # Your code here
 end
 
-def summon_captain_planet?(veggies)# code an argument here
-  veggies.collect do |veggie|
-    "#{veggies.capitalize} << !"# Your code here
-    binding.pry
-  end 
-  summon_captain_planet
+def summon_captain_planet?(call)# code an argument here
+  
 end
 
 def long_planeteer_calls# code an argument here
