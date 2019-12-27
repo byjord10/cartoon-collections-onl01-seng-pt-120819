@@ -7,8 +7,14 @@ def roll_call_dwarves(dwarves)# code an argument here
      # Your code here
 end
 
-def summon_captain_planet?(call)# code an argument here
-  
+def summon_captain_planet?(summon)# code an argument here
+  i = o
+  summon_him = []
+  while i < summon.length 
+    return yield(summon_him << summon[i])
+    i += 1
+  end 
+  summon_him
 end
 
 def long_planeteer_calls# code an argument here
