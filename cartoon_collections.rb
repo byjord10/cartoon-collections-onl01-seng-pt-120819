@@ -11,7 +11,6 @@ def summon_captain_planet?(planeteer_calls)# code an argument here
   planeteer_calls.map do |x|
     x.capitalize << "!"
   end
-  x
 end
 
 def long_planeteer_calls(characters)# code an argument here
@@ -20,7 +19,8 @@ def long_planeteer_calls(characters)# code an argument here
   end # Your code here
 end
 
-def find_the_cheese# code an argument here
-  # the array below is here to help
+def find_the_cheese(type)
+  type.find do |x|
+    cheese_types.include?(x)
   cheese_types = ["cheddar", "gouda", "camembert"]
 end
