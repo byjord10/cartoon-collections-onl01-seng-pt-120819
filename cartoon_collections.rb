@@ -10,10 +10,10 @@ end
 def summon_captain_planet?(summon)# code an argument here
   i = o
   summon_him = []
-  while i < summon.length 
+  while i < summon.length
     return yield(summon_him << summon[i])
     i += 1
-  end 
+  end
   summon_him
 end
 
