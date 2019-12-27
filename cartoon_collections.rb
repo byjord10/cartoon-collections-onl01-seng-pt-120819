@@ -12,7 +12,7 @@ def summon_captain_planet?(veggies)# code an argument here
     "#{veggies.capitalize} << !"# Your code here
     binding.pry
   end 
-
+  summon_captain_planet
 end
 
 def long_planeteer_calls# code an argument here
